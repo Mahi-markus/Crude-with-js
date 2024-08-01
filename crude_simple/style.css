@@ -1,0 +1,77 @@
+body {
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    font-size: medium;
+    width: 70%;
+    margin: 40px auto;
+    background-color: rgb(165, 160, 218);
+}
+
+td {
+    font-weight: bold;
+    padding: 60px 10px 30px 50px;
+    color: rgb(7, 7, 7);
+}
+
+table.list {
+    text-align: left;
+    padding: 80px 40px;
+}
+
+td {
+    border: 1px solid rgb(15, 15, 15);
+    text-align: left;
+    padding: 4px 8px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 80%;
+    padding: 6px 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 7px;
+}
+
+select {
+    font-weight: bold;
+    width: 88%;
+    padding: 6px 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 7px;
+}
+
+input[type="submit"]:hover {
+    background: purple;
+}
+
+input[type="reset"]:hover {
+    background: purple;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: rgb(140, 140, 243);
+    width: 30%;
+    padding: 6px 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 7px;
+}
+
+table {
+    border-spacing: 9px;
+}
+
+.norap {
+    white-space: nowrap;
+}
